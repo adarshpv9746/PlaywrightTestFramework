@@ -1,0 +1,22 @@
+{
+  "name": "moz-test",
+  "version": "1.0.0",
+  "description": "<strong>Prerequisites:</strong>\r <li>node : v22.18.0</li>\r <strong>Setup Steps:</strong>\r <li><code>npx playwright install --with-deps</code></li>\r <li><code>npm init playwright@latest</code></li>",
+  "main": "index.js",
+  "scripts": {
+    "all": "npx playwright test",
+    "authentication": "npx playwright test tests/authenticate.spec.ts",
+    "shopping": "npx playwright test tests/shopping.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "uuid": "^11.1.0"
+  }
+}
