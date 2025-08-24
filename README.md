@@ -53,7 +53,7 @@ node -v
     ```bash
         npx playwright show-trace
     ```
-- The framework generated html, list, dot, and trace reoprts.
+- The framework generates html, list, dot, and trace reports.
 ---
 
 # Project Structure
