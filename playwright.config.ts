@@ -6,6 +6,7 @@ dotenv.config();
 export default defineConfig({
   testDir: './tests',
   testMatch: ['**/*.spec.ts'],
+  outputDir: 'test-results',
   timeout: 60000, 
   expect: {
     timeout: 10000
@@ -23,7 +24,7 @@ export default defineConfig({
   
   use: {
     baseURL: process.env.BASE_URL ?? 'https://www.advantageonlineshopping.com',
-    trace: 'on',
+    trace: 'on'
   },
 
   

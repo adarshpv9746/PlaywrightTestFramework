@@ -49,7 +49,7 @@ node -v
     ```bash
         npx playwright show-report
     ```
-- View trace report:
+- View trace report under test-results:
     ```bash
         npx playwright show-trace
     ```
